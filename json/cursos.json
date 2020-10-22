@@ -1,14 +1,27 @@
 [
     {
-        "nome":"teste",
+        "nome_curso":"Bases Numéricas",
+        "nome_canal":"Curso em Vídeo",
+        "url_canal":"https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ",
         "videos": [
-            "adfghafsghdfghasfdghfasghf",
-            "adfghafsghdfghasfdghfasghf",
-            "adfghafsghdfghasfdghfasghf"
+            {
+                "nome_video":"Notação Posicional",
+                "url_videi":"https://youtu.be/J5q7s7l2EuI?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
+            },
+            {
+                "nome_video":"Números Binários",
+                "url_videi":"https://youtu.be/eD56zn5kYfU?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
+            },
+            {
+                "nome_video":"Números Octais e Hexadecimais",
+                "url_videi":"https://youtu.be/gIXiFhEA-Qw?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
+            },
+            {
+                "nome_video":"Relações entre Sistemas de Numeração",
+                "url_videi":"https://youtu.be/4ZbeExMYRIo?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
+            }
         ],
-        "avatar-url":"asdasdasd",
-        "categoria":"aaaaaa"
-
+        "avatar-url":"https://yt3.ggpht.com/a/AATXAJw5tG-KWcrxIUOhJ8hOcgVjwsYNncLFEIf7ob1zOQ=s88-c-k-c0x00ffffff-no-rj",
+        "categoria":"embarcados"
     }
-
 ]
