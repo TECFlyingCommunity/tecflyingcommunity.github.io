@@ -1,19 +1,17 @@
-{
-    "categorias": {
-        "web": {
-            "nome":"WEB"
-        },
-        "desktop": {
-            "nome":"Desktop"
-        },
-        "mobile": {
-            "nome":"Mobile"
-        },
-        "jogos": {
-            "nome":"Jogos"
-        },
-        "embarcados": {
-            "nome":"Embarcados"
-        }
+[
+    {
+        "nome":"WEB"
+    },
+    {
+        "nome":"Desktop"
+    },
+    {
+        "nome":"Mobile"
+    },
+    {
+        "nome":"Jogos"
+    },
+    {
+        "nome":"Embarcados"
     }
-}
+]
