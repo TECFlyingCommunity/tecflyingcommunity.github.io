@@ -1,6 +1,7 @@
 [
     {
-        "nome_curso":"Bases Numéricas",
+        "nome":"Bases Numéricas",
+        "nome_curso":"bases_numericas_cruso_em_video",
         "nome_canal":"Curso em Vídeo",
         "url_canal":"https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ",
         "videos": [
