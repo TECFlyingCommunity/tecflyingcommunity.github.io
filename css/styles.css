@@ -1,8 +1,11 @@
+
+
+#logo {
+  width: 45px;
+}
 body{
 
   background-color: #5E17EB;
-    
-  
 }
 div.container{
 
@@ -169,50 +172,30 @@ height: 300px;
 
 }
 
+.center{
+  align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.card-curso{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-curso:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
+}
+
+
 .card-1 {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   
 }
-
-.card-1:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-.card-2 {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-
-.card-3 {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-.card-4 {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-.card-5 {
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-}
-
-.card-5 {
-  box-shadow: 0 24px 42px rgba(0,0,0,0.35), 0 20px 15px rgba(0,0,0,0.21);
-}
-
-.card-5 {
-  box-shadow: 0 29px 48px rgba(0,0,0,0.39), 0 25px 19px rgba(0,0,0,0.24);
-}
-
-
-
-
-
-
-
-
-
-
-
 
 @import "compass/css3";
 
@@ -469,7 +452,7 @@ img {
 }
 
 .section-a h1 {
-  font-size: 4rem;
+  font-size: 3.5em;
   color: rgb(255, 254, 254);
 }
 
@@ -479,7 +462,7 @@ img {
 
 .section-b {
   position: relative;
-  background: url("file:////home/hyck/Área de Trabalho/SITE/tecflyingcommunity.github.io-main/IMG/ADOBE PHOTOSHOP.png") no-repeat bottom center/cover;
+  background: url("/IMG/ADOBE PHOTOSHOP.png") no-repeat bottom center/cover;
   height: 800px;
 }
 
@@ -497,17 +480,17 @@ img {
 }
 
 .section-b-inner h3 {
-  font-size: 2rem;
+  font-size: 1.7em;
 }
 
 .section-b-inner h2 {
-  font-size: 5rem;
-  margin-top: 1rem;
+  font-size: 3em;
+  margin-top: 1em;
 }
 
 .section-b-inner p {
-  margin-top: 1rem;
-  font-size: 1.5rem;
+  margin-top: 1em;
+  font-size: 1.5em;
 }
 
 .section-c .gallery {
@@ -530,7 +513,7 @@ img {
 .section-c .gallery a {
   width: 100%;
   height: 100%;
-  padding: 25px;
+  padding: 5px;
 }
 
 .section-footer {

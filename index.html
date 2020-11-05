@@ -1,126 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TEC Flying Community</title>
 
-    <!-- Fonte -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,500,700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TEC Flying Community</title>
 
-    <!-- Estilos -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700&display=swap" rel="stylesheet" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
 
 
-    
-    <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
 
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/bf7e05c402.js"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
-    <!-- scripts -->
-    <script src="js/scripts.js"></script>
-    <script src="js/home.js"></script>
-    <script src="js/code.js"></script>
-    </script>
-  </head>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
 
-  
-  <body>
- <!-- NAVBAR -->
-      <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #5E17EB;">
+  <!-- scripts -->
+  <script src="js/scripts.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/code.js"></script>
+  </script>
+</head>
 
-  <!-- Navbar brand -->
-  <a class="navbar-brand" href="#"> 
-    <img src="IMG/TekVideo.png" height="80" width="95" alt="mdb logo">
-  </a>
 
-  <!-- Collapse button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<body>
 
-  <!-- Collapsible content -->
-  <div class="collapse navbar-collapse" id="basicExampleNav">
+  <header>
 
-    <!-- Links -->
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home
-          <span class="sr-only">(current)</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Categorias</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Sobre</a>
-        <li class="nav-item">
-          <a class="nav-link" href="Jogo.html">?</a>
-        </li>
+    <!-- NAVBAR -->
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #5E17EB;">
 
-    </ul>
-    <!-- Links -->
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="index.html">
+        <img id="logo" src="IMG/logo.png" alt="TekVideo logo">
+      </a>
 
-    <form class="form-inline">
-      <div class="md-form my-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="jogo.html">?</a>
+          </li>
+
+        </ul>
+        <!-- Links -->
+<!-- 
+        <form class="form-inline">
+          <div class="md-form my-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          </div>
+        </form> -->
+
+
       </div>
-    </form>
-  </div>
-  <!-- Collapsible content -->
+      <!-- Collapsible content -->
 
-</nav>
-<!--/.Navbar-->
-    
-
-    
+    </nav>
+    <!--/.Navbar-->
 
 
+  </header>
+  <main>
 
-<!-- Large Text -->
-<section id="about" class="section-b">
-  <div class="overlay">
-    <div class="section-b-inner py-5">
-      <h3 class="text-2">TEKVIDEOS</h3>
-      <h2 class="text-5 mt-1">Conheça o Tek </h2>
-      <p class="mt-1">
-        A maior plataforma de conteudo educacionais do Brasil, voltados as areas da informatica  .
-      </p>
-    </div>
-  </div>
-</section>
+
+    <!-- Large Text -->
+    <section id="about" class="section-b">
+      <div class="overlay">
+        <div class="section-b-inner py-5">
+          <h3 class="">TEKVIDEOS</h3>
+          <h2 class="text-5 mt-1">Conheça o Tek </h2>
+          <p class="mt-1">
+            A maior plataforma de conteudo educacionais do Brasil, voltados as areas da informatica .
+          </p>
+        </div>
+      </div>
+    </section>
 
     <!-- Showcase -->
     <section class="section-a">
@@ -130,9 +117,9 @@
           <p>
             Não é a linguagem de programação que define o programador, mas sim sua lógica.
           </p>
-          <a href="#" class="btn">Leia mais</a>
+          <a href="sobre.html" class="btn">Leia mais</a>
         </div>
-        <img src="IMG/TekVideo.png" alt="" />
+        <img src="IMG/TekVideo.png" class="big"  alt="" />
       </div>
     </section>
 
@@ -148,7 +135,7 @@
             <li data-target="#main-carousel" data-slide-to="2"></li>
             <li data-target="#main-carousel" data-slide-to="3"></li>
           </ol>
-          
+
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block img-fluid" src="IMG/T/React.png" alt="">
@@ -171,7 +158,7 @@
               </div>
             </div>
           </div>
-          
+
           <a href="#main-carousel" class="carousel-control-prev" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
             <span class="sr-only" aria-hidden="true">Prev</span>
@@ -185,24 +172,27 @@
 
 
 
-      <div class="card"> <img src="IMG/Logo/Ruby.png" alt="" class="card"></div>
-     
-      <div class="card card-1"><img src="IMG/Logo/Ghodot.png" alt="" class="card"></div>
-      
-      <div class="card card-2"><img src="IMG/Logo/Java.png" alt="" class="card"></div>
-      
-      <div class="card card-3"><img src="IMG/Logo/post.png" alt="" class="card"></div>
-      <div class="card card-4"><img src="IMG/Logo/python.png" alt="" class="card"></div>
-      <div class="card card-5"><img src="IMG/Logo/git.png" alt="" class="card"></div>
-      <div class="card card-6"><img src="IMG/Logo/JS.png" alt="" class="card"></div>
-      <div class="card card-7"><img src="IMG/Logo/html.png" alt="" class="card"></div>
+      <div class="center" class="row">
+        <div class="card card-curso column"> <img src="IMG/Logo/Ruby.png" alt="" class="card img-fluid"></div>
+
+        <div class="card card-curso column"><img src="IMG/Logo/Ghodot.png" alt="" class="card img-fluid"></div>
+
+        <div class="card card-curso column"><img src="IMG/Logo/Java.png" alt="" class="card img-fluid"></div>
+
+        <div class="card card-curso column"><img src="IMG/Logo/post.png" alt="" class="card img-fluid"></div>
+        <div class="card card-curso column"><img src="IMG/Logo/python.png" alt="" class="card img-fluid"></div>
+        <div class="card card-curso column"><img src="IMG/Logo/git.png" alt="" class="card img-fluid"></div>
+        <div class="card card-curso column"><img src="IMG/Logo/JS.png" alt="" class="card img-fluid"></div>
+        <div class="card card-curso column"><img src="IMG/Logo/html.png" alt="" class="card img-fluid"></div>
+
+      </div>
 
 
 
 
-
-<!-- Gallery -->
-<section class="section-c">
+      <!-- Gallery -->
+      <!-- Gallery -->
+<section class="section-c center">
   <div class="gallery">
     <a href="IMG/T/1.jpeg" class="big"
       ><img src="IMG/T/1.jpeg" alt=""
@@ -227,101 +217,85 @@
 
 
 
-    
+
+      <!-- OVELHA -->
 
 
 
-
-
-    
-
-   <!-- OVELHA -->
-  
-     
-   
-    <div class="scene" id="ovelha">
-      <div class="text">Voltar ao topo</div>
-      <div class="sheep">
-        <span class="top">
-          <div class="body"></div>
-          <div class="head">
-            <div class="eye one"></div>
-            <div class="eye two"></div>
-            <div class="ear one"></div>
-            <div class="ear two"></div>
-          </div>
-        </span>
+      <div class="scene" id="ovelha">
+        <a href="#">
+          <div class="text">Voltar ao topo</div>
+        </a>
+        <div class="sheep">
+          <span class="top">
+            <div class="body"></div>
+            <div class="head">
+              <div class="eye one"></div>
+              <div class="eye two"></div>
+              <div class="ear one"></div>
+              <div class="ear two"></div>
+            </div>
+          </span>
           <div class="legs">
             <div class="leg"></div>
             <div class="leg"></div>
             <div class="leg"></div>
             <div class="leg"></div>
+          </div>
         </div>
       </div>
-    </div>
-  
-<!-- OVELHA -->
+
+      <!-- OVELHA -->
+
+    </main>
 
 
+    <footer style="background-color: rgb(27, 27, 27);" id="myFooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h5>Inicio</h5>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Cursos</a></li>
+              <li><a href="">Downloads</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5>Sobre nós</h5>
+            <ul>
+              <li><a href="">Informações da Empresa</a></li>
+              <li><a href="">Contato</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h5>Suporte</h5>
+            <ul>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Telefones</a></li>
+              <li><a href="">Chat</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3 info">
+            <h5>Informações</h5>
+            <p class="footer"> Se você deseja se tornar um programador de sucesso, Assine o Tekvideos PRIME e aproveite
+              os conteúdos exclusivo </p>
+          </div>
+        </div>
+      </div>
+      <div class="second-bar"></div>
+      <div class="container">
+        <h2 class="logo"><a href=""> Tek-Videos </a></h2>
+        <div class="social-icons"></div>
+        <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
+      </div>
+      </div>
+      </div>
+    </footer>
 
+</body>
 
-
-
-    <div class="content" >
-    </div>
-        <footer style="background-color: rgb(27, 27, 27);" id="myFooter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3" >
-                        <h5>Inicio</h5>
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Cursos</a></li>
-                            <li><a href="">Downloads</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <h5>Sobre nós</h5>
-                        <ul>
-                            <li><a href="">Informações da Empresa</a></li>
-                            <li><a href="">Contato</a></li>
-                            <li><a href="">Blog</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <h5>Suporte</h5>
-                        <ul>
-                            <li><a href="">FAQ</a></li>
-                            <li><a href="">Telefones</a></li>
-                            <li><a href="">Chat</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3 info">
-                        <h5>Informações</h5>
-                        <p class="footer"> Se você deseja se tornar um programador de sucesso, Assine o Tekvideos PRIME e aproveite os conteudos exclusivo  </p>
-                    </div>
-                </div>
-            </div>
-            <div class="second-bar"></div>
-               <div class="container">
-                <h2 class="logo"><a href=""  > Tek-Videos </a></h2>
-                    <div class="social-icons"></div>
-                        <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-
-
-  </body>
-  </html>
-  
-
-
-
-
-
-
+</html>
