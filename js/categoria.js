@@ -25,14 +25,14 @@ function listarCursos(categoria) {
     for (let i = 0; i < cursos.length; i++) {
       const curso = cursos[i];
       if (curso.categoria == categoria) {
-        // const type_categoria = `<button onclick="paginaCurso(\'${curso.nome_curso}\')">${curso.nome}</button>`;
+        const type_curso = `<div onclick="paginaCurso(\'${curso.nome_curso}\')">
+        <div class="card card-curso column">
+          <img src="IMG/Logo/Ruby.png" alt="" class="card img-fluid">
+        </div>
+        <h2>${curso.nome}</h2>
+      </div>`;
 
-        const type_categoria = ` <div class="card card-curso column" onclick="paginaCurso(\'${curso.nome_curso}\')"  > 
-        <img src="IMG/Logo/Ruby.png" alt="" class=" img-fluid">
-        <h5>${curso.nome}</h5>
-        </div>`;
-
-        $list.append(type_categoria);
+        $list.append(type_curso);
 
         console.log(curso.nome_curso);
         console.log(curso);

@@ -136,7 +136,7 @@ img.card {
   background: #4e12c7;
   border-radius: 2px;
   display: inline-block;
-  margin: 1rem;
+  margin: 2rem;
   position: relative;
 
   width: 300px;
@@ -597,12 +597,12 @@ alternativa: mudar > por um ícone svg
 
 .carousel-control-next-icon:after {
   content: ">";
-  font-size: 55px;
+  font-size: 60px;
   color: red;
 }
 
 .carousel-control-prev-icon:after {
   content: "<";
-  font-size: 55px;
+  font-size: 60px;
   color: red;
 }
