@@ -1,7 +1,7 @@
 
 
 ## Interface 
-- [ ] Home
+- [X] Home
 - [ ] Categoria
 - [ ] Curso
 - [ ] Sobre

@@ -22,7 +22,15 @@ function listarCategorias() {
     for (let i = 0; i < categorias.length; i++) {
       const categoria = categorias[i];
 
-      const type_categoria = `<button onclick="paginaCategoria(\'${categoria.nome_categoria}\')">${categoria.nome}</button>`;
+      // const type_categoria = `<button onclick="paginaCategoria(\'${categoria.nome_categoria}\')">${categoria.nome}</button>`;
+
+      const type_categoria = `<div onclick="paginaCategoria(\'${categoria.nome_categoria}\')">
+        <div class="card card-curso column">
+          <img src="IMG/Logo/Ruby.png" alt="" class="card img-fluid">
+        </div>
+        <h2>${categoria.nome}</h2>
+      </div>`;
+
       $list.append(type_categoria);
 
       console.log(categoria.nome);

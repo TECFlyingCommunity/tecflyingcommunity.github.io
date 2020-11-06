@@ -1,49 +1,36 @@
-
-
 #logo {
   width: 45px;
 }
-body{
-
-  background-color: #5E17EB;
+body {
+  background-color: #5e17eb;
 }
-div.container{
-
+div.container {
   margin-top: 25px;
 }
-.row{
-
+.row {
   padding: 50px;
 }
 
-
-a.nav-link{
-
-color: rgb(250, 250, 250);
-
+a.nav-link {
+  color: rgb(250, 250, 250);
 }
 
-
-li.nav-item{
-
-padding-right: 30px;
-
+li.nav-item {
+  padding-right: 30px;
 }
 
-nav{
-    
-    box-shadow: 0px 8px 17px 2px rgba(0,0,0,0.14) , 0px 3px 14px 2px rgba(0,0,0,0.12) , 0px 5px 5px -3px rgba(0,0,0,0.2) ;
+nav {
+  box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.14),
+    0px 3px 14px 2px rgba(0, 0, 0, 0.12), 0px 5px 5px -3px rgba(0, 0, 0, 0.2);
 }
 
-
-h5{
-    color: white;
+h5 {
+  color: white;
 }
 
-
-
-
-
+.canal {
+  color: white;
+}
 footer p {
   color: #ffffff;
   letter-spacing: 1px;
@@ -55,14 +42,6 @@ footer a {
 footer a:hover {
   color: #175db8;
 }
-
-
-
-
-
-
-
-
 
 .abs,
 h2:after,
@@ -117,8 +96,7 @@ h2 span {
   vertical-align: middle;
 }
 body {
-    
-  font-family: 'Alegreya Sans';
+  font-family: "Alegreya Sans";
 }
 .wrapper {
   padding: 15px;
@@ -146,18 +124,13 @@ h2:after {
   height: 2px;
   left: 0;
   right: 0;
-  background: #87D1F4;
+  background: #87d1f4;
 }
 
-
-img.card{
-
-width: 300px;
-height: 300px;
-
-
+img.card {
+  width: 300px;
+  height: 300px;
 }
-
 
 .card {
   background: #4e12c7;
@@ -165,202 +138,186 @@ height: 300px;
   display: inline-block;
   margin: 1rem;
   position: relative;
-  
+
   width: 300px;
   height: 300px;
-
-
 }
 
-.center{
+.center {
   align-items: center;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.card-curso{
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+.card-curso {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.card-curso:hover{
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  
+.card-curso:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-
 
 .card-1 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 @import "compass/css3";
 
- @keyframes bob {
-	 0% {
-		 top: 0;
-	}
-	 50% {
-		 top: 0.2em;
-	}
+@keyframes bob {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 0.2em;
+  }
 }
- 
- 
- .scene {
 
-	 text-align: center;
-	 transform: translate3d(0, 0, 0);
+.scene {
+  text-align: center;
+  transform: translate3d(0, 0, 0);
 }
- .text {
-	 color: white;
-	 font-size: 2em;
-	 font-family: helvetica;
-	 font-weight: bold;
+.text {
+  color: white;
+  font-size: 2em;
+  font-family: helvetica;
+  font-weight: bold;
 }
- .sheep {
-	 display: inline-block;
-	 position: relative;
-	 font-size: 1em;
+.sheep {
+  display: inline-block;
+  position: relative;
+  font-size: 1em;
 }
- .sheep * {
-	 transition: transform 0.3s;
+.sheep * {
+  transition: transform 0.3s;
 }
- .sheep .top {
-	 position: relative;
-	 top: 0;
-	 animation: bob 1s infinite;
+.sheep .top {
+  position: relative;
+  top: 0;
+  animation: bob 1s infinite;
 }
- .sheep:hover .head {
-	 transform: rotate(0deg);
+.sheep:hover .head {
+  transform: rotate(0deg);
 }
- .sheep:hover .head .eye {
-	 width: 1.25em;
-	 height: 1.25em;
+.sheep:hover .head .eye {
+  width: 1.25em;
+  height: 1.25em;
 }
- .sheep:hover .head .eye:before {
-	 right: 30%;
+.sheep:hover .head .eye:before {
+  right: 30%;
 }
- .sheep:hover .top {
-	 animation-play-state: paused;
+.sheep:hover .top {
+  animation-play-state: paused;
 }
- .sheep .head {
-	 display: inline-block;
-	 width: 5em;
-	 height: 5em;
-	 border-radius: 100%;
-	 background: #211e21;
-	 vertical-align: middle;
-	 position: relative;
-	 top: 1em;
-	 transform: rotate(30deg);
+.sheep .head {
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+  border-radius: 100%;
+  background: #211e21;
+  vertical-align: middle;
+  position: relative;
+  top: 1em;
+  transform: rotate(30deg);
 }
- .sheep .head:before {
-	 content: '';
-	 display: inline-block;
-	 width: 80%;
-	 height: 50%;
-	 background: #211e21;
-	 position: absolute;
-	 bottom: 0;
-	 right: -10%;
-	 border-radius: 50% 40%;
+.sheep .head:before {
+  content: "";
+  display: inline-block;
+  width: 80%;
+  height: 50%;
+  background: #211e21;
+  position: absolute;
+  bottom: 0;
+  right: -10%;
+  border-radius: 50% 40%;
 }
- .sheep .head:hover .ear.one, .sheep .head:hover .ear.two {
-	 transform: rotate(0deg);
+.sheep .head:hover .ear.one,
+.sheep .head:hover .ear.two {
+  transform: rotate(0deg);
 }
- .sheep .head .eye {
-	 display: inline-block;
-	 width: 1em;
-	 height: 1em;
-	 border-radius: 100%;
-	 background: white;
-	 position: absolute;
-	 overflow: hidden;
+.sheep .head .eye {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 100%;
+  background: white;
+  position: absolute;
+  overflow: hidden;
 }
- .sheep .head .eye:before {
-	 content: '';
-	 display: inline-block;
-	 background: black;
-	 width: 50%;
-	 height: 50%;
-	 border-radius: 100%;
-	 position: absolute;
-	 right: 10%;
-	 bottom: 10%;
-	 transition: all 0.3s;
+.sheep .head .eye:before {
+  content: "";
+  display: inline-block;
+  background: black;
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  transition: all 0.3s;
 }
- .sheep .head .eye.one {
-	 right: -2%;
-	 top: 1.7em;
+.sheep .head .eye.one {
+  right: -2%;
+  top: 1.7em;
 }
- .sheep .head .eye.two {
-	 right: 2.5em;
-	 top: 1.7em;
+.sheep .head .eye.two {
+  right: 2.5em;
+  top: 1.7em;
 }
- .sheep .head .ear {
-	 background: #211e21;
-	 width: 50%;
-	 height: 30%;
-	 border-radius: 100%;
-	 position: absolute;
+.sheep .head .ear {
+  background: #211e21;
+  width: 50%;
+  height: 30%;
+  border-radius: 100%;
+  position: absolute;
 }
- .sheep .head .ear.one {
-	 left: -10%;
-	 top: 5%;
-	 transform: rotate(-30deg);
+.sheep .head .ear.one {
+  left: -10%;
+  top: 5%;
+  transform: rotate(-30deg);
 }
- .sheep .head .ear.two {
-	 top: 2%;
-	 right: -5%;
-	 transform: rotate(20deg);
+.sheep .head .ear.two {
+  top: 2%;
+  right: -5%;
+  transform: rotate(20deg);
 }
- .sheep .body {
-	 display: inline-block;
-	 width: 7em;
-	 height: 7em;
-	 border-radius: 100%;
-	 background: white;
-	 position: relative;
-	 vertical-align: middle;
-	 margin-right: -3em;
+.sheep .body {
+  display: inline-block;
+  width: 7em;
+  height: 7em;
+  border-radius: 100%;
+  background: white;
+  position: relative;
+  vertical-align: middle;
+  margin-right: -3em;
 }
- .sheep .legs {
-	 display: inline-block;
-	 position: absolute;
-	 top: 80%;
-	 left: 10%;
-	 z-index: -1;
+.sheep .legs {
+  display: inline-block;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  z-index: -1;
 }
- .sheep .legs .leg {
-	 display: inline-block;
-	 background: #141214;
-	 width: 0.5em;
-	 height: 2.5em;
-	 margin: 0.2em;
+.sheep .legs .leg {
+  display: inline-block;
+  background: #141214;
+  width: 0.5em;
+  height: 2.5em;
+  margin: 0.2em;
 }
- .sheep:before {
-	 content: '';
-	 display: inline-block;
-	 position: absolute;
-	 top: 112%;
-	 width: 100%;
-	 height: 10%;
-	 border-radius: 100%;
-	 background: rgba(0, 0, 0, 0.4);
+.sheep:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 112%;
+  width: 100%;
+  height: 10%;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.4);
 }
- 
-
-
-
-
-
-
-
-
-
 
 :root {
   --primary-color: #333;
@@ -375,7 +332,7 @@ justify-content: center;
 }
 
 body {
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   line-height: 1.6;
   color: rgb(214, 211, 211);
   font-size: 1.1rem;
@@ -547,8 +504,6 @@ img {
   margin-right: 0.5rem;
 }
 
-
-
 .btn {
   display: inline-block;
   background: var(--primary-color);
@@ -624,4 +579,30 @@ img {
   }
 }
 
+/* 
+muda a cor da seta do carousel 
 
+
+obs:a cor original estava atrapalhando na parte de passar os videos
+alternativa: mudar > por um ícone svg
+*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: red;
+}

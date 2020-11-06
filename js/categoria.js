@@ -1,17 +1,16 @@
-
 window.onload = initPage;
 
 function initPage() {
   var categoria = queryString("categoria");
+  const $nome_categoria = $("#nome-categoria");
+  $nome_categoria.append(categoria);
   listarCursos(categoria);
 }
 
 function paginaCurso(valor) {
-  window.location = "curso.html?curso="+valor;
+  window.location = "curso.html?curso=" + valor;
 }
 
-
-  
 function listarCursos(categoria) {
   const $list = $("#cursos-list");
   var requestURL = "https://tecflyingcommunity.github.io/json/cursos.json";
@@ -26,7 +25,13 @@ function listarCursos(categoria) {
     for (let i = 0; i < cursos.length; i++) {
       const curso = cursos[i];
       if (curso.categoria == categoria) {
-        const type_categoria = `<button onclick="paginaCurso(\'${curso.nome_curso}\')">${curso.nome}</button>`;
+        // const type_categoria = `<button onclick="paginaCurso(\'${curso.nome_curso}\')">${curso.nome}</button>`;
+
+        const type_categoria = ` <div class="card card-curso column" onclick="paginaCurso(\'${curso.nome_curso}\')"  > 
+        <img src="IMG/Logo/Ruby.png" alt="" class=" img-fluid">
+        <h5>${curso.nome}</h5>
+        </div>`;
+
         $list.append(type_categoria);
 
         console.log(curso.nome_curso);
