@@ -4,6 +4,8 @@
         "nome_curso":"bases_numericas_cruso_em_video",
         "nome_canal":"Curso em Vídeo",
         "url_canal":"https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ",
+        "avatar_url":"https://yt3.ggpht.com/a/AATXAJw5tG-KWcrxIUOhJ8hOcgVjwsYNncLFEIf7ob1zOQ=s88-c-k-c0x00ffffff-no-rj",
+        "categoria":"embarcados",
         "videos": [
             {
                 "nome_video":"Notação Posicional",
@@ -21,15 +23,16 @@
                 "nome_video":"Relações entre Sistemas de Numeração",
                 "url_video":"https://www.youtube.com/embed/4ZbeExMYRIo?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
             }
-        ],
-        "avatar-url":"https://yt3.ggpht.com/a/AATXAJw5tG-KWcrxIUOhJ8hOcgVjwsYNncLFEIf7ob1zOQ=s88-c-k-c0x00ffffff-no-rj",
-        "categoria":"embarcados"
+        ]
+        
     },
     {
         "nome":"Programação em C",
         "nome_curso":"programacao_em_c_excript",
         "nome_canal":"eXcript",
         "url_canal":"https://www.youtube.com/channel/UCRu4BNG9k_BRUu-aCYJsgHg",
+        "avatar_url":"https://yt3.ggpht.com/a/AATXAJyfW8vugN284dM4KSqD7WVH9faxtgyZKwvm7oEFOP8=s88-c-k-c0x00ffffff-no-rj",
+        "categoria":"embarcados",
         "videos": [
             {
                 "nome_video":"Aula 1 - Abertura do Curso de C",
@@ -67,7 +70,8 @@
                 "nome_video":"",
                 "url_video":"https://www.youtube.com/embed/"
             },
-            {
+            {"avatar_url":"https://yt3.ggpht.com/a/AATXAJyfW8vugN284dM4KSqD7WVH9faxtgyZKwvm7oEFOP8=s88-c-k-c0x00ffffff-no-rj",
+                "categoria":"embarcados"
                 "nome_video":"",
                 "url_video":"https://www.youtube.com/embed/"
             },
@@ -115,8 +119,7 @@
                 "nome_video":"",
                 "url_video":"https://www.youtube.com/embed/"
             }
-        ],
-        "avatar-url":"https://yt3.ggpht.com/a/AATXAJyfW8vugN284dM4KSqD7WVH9faxtgyZKwvm7oEFOP8=s88-c-k-c0x00ffffff-no-rj",
-        "categoria":"embarcados"
+        ]
+        
     }
 ]

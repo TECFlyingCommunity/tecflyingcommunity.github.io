@@ -27,7 +27,7 @@ function listarCursos(categoria) {
       if (curso.categoria == categoria) {
         const type_curso = `<div onclick="paginaCurso(\'${curso.nome_curso}\')">
         <div class="card card-curso column">
-          <img src="IMG/Logo/Ruby.png" alt="" class="card img-fluid">
+          <img src="${curso.avatar_url}" alt="" class="card img-fluid">
         </div>
         <h2>${curso.nome}</h2>
       </div>`;
