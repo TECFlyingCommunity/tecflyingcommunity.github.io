@@ -16,7 +16,7 @@ function listarCursos(categoria) {
   var requestURL = "https://tecflyingcommunity.github.io/json/cursos.json";
   var request = new XMLHttpRequest();
   request.open("GET", requestURL);
-  request.responseType = "json";
+  request.responseType = "json"; 
   request.send();
 
   request.onload = function () {
@@ -26,10 +26,10 @@ function listarCursos(categoria) {
       const curso = cursos[i];
       if (curso.categoria == categoria) {
         const type_curso = `<div onclick="paginaCurso(\'${curso.nome_curso}\')">
-        <div class="card card-curso column">
-          <img src="${curso.avatar_url}" alt="" class="card img-fluid">
+        <div class="card card-curso card-curso column">
+          <img src="${curso.avatar_url}" alt="" class="card card-curso img-fluid">
         </div>
-        <h2>${curso.nome}</h2>
+        <h4>${curso.nome}</h4>
       </div>`;
 
         $list.append(type_curso);

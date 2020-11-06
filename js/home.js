@@ -25,8 +25,8 @@ function listarCategorias() {
       // const type_categoria = `<button onclick="paginaCategoria(\'${categoria.nome_categoria}\')">${categoria.nome}</button>`;
 
       const type_categoria = `<div onclick="paginaCategoria(\'${categoria.nome_categoria}\')">
-        <div class="card card-curso column">
-          <img src="IMG/Logo/Ruby.png" alt="" class="card img-fluid">
+        <div class="card card-categoria column">
+          <img src="img/card/ruby-card.png" alt="" class="card card-categoria img-fluid">
         </div>
         <h2>${categoria.nome}</h2>
       </div>`;

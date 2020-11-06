@@ -127,7 +127,7 @@ h2:after {
   background: #87d1f4;
 }
 
-img.card {
+img.card-categoria{
   width: 300px;
   height: 300px;
 }
@@ -135,12 +135,24 @@ img.card {
 .card {
   background: #4e12c7;
   border-radius: 2px;
-  display: inline-block;
   margin: 2rem;
+  display: inline-block;
   position: relative;
-
+}
+.card-categoria{
+  
   width: 300px;
   height: 300px;
+}
+
+img.card-curso{
+  width: 200px;
+  height: 200px;
+}
+.card-curso{
+  margin: 1rem;
+  width: 200px;
+  height: 200px;
 }
 
 .center {
@@ -419,7 +431,7 @@ img {
 
 .section-b {
   position: relative;
-  background: url("/IMG/ADOBE PHOTOSHOP.png") no-repeat bottom center/cover;
+  background: url("/img/wallpaper/adobe-photoshop.png") no-repeat bottom center/cover;
   height: 800px;
 }
 

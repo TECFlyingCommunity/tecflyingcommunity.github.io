@@ -1,23 +1,28 @@
 [
     {
         "nome":"WEB",
-        "nome_categoria":"web"
+        "nome_categoria":"web",
+        "img":"web"
     },
     {
         "nome":"Desktop",
-        "nome_categoria":"desktop"
+        "nome_categoria":"desktop",
+        "img":"web"
         
     },
     {
         "nome":"Mobile",
-        "nome_categoria":"mobile"
+        "nome_categoria":"mobile",
+        "img":"web"
     },
     {
         "nome":"Jogos",
-        "nome_categoria":"jogos"
+        "nome_categoria":"jogos",
+        "img":"web"
     },
     {
         "nome":"Embarcados",
-        "nome_categoria":"embarcados"
+        "nome_categoria":"embarcados",
+        "img":"web"
     }
 ]
