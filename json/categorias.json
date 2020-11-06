@@ -2,27 +2,27 @@
     {
         "nome":"WEB",
         "nome_categoria":"web",
-        "img":"web"
+        "img":"img/card/html5-card.png"
     },
     {
         "nome":"Desktop",
         "nome_categoria":"desktop",
-        "img":"web"
+        "img":"img/card/ps-card.png"
         
     },
     {
         "nome":"Mobile",
         "nome_categoria":"mobile",
-        "img":"web"
+        "img":"img/card/java-card.png"
     },
     {
         "nome":"Jogos",
         "nome_categoria":"jogos",
-        "img":"web"
+        "img":"img/card/godot-card.png"
     },
     {
         "nome":"Embarcados",
         "nome_categoria":"embarcados",
-        "img":"web"
+        "img":"img/card/c-card.png"
     }
 ]
