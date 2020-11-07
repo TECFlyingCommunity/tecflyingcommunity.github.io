@@ -22,5 +22,6 @@
 - [ ] [Curso de Git e GitHub - Curso Em Video](https://youtu.be/xEKo29OWILE?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
 - [ ] [Curso Python - Curso Em Video](https://youtu.be/S9uPNppGsGo?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
 - [ ] [Curso de Algoritmos - Curso Em Video](https://youtu.be/8mei6uVttho?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
-- [ ] [Curso de Linux - Curso Em Video](https://youtu.be/6nN2EglOqCM?list=PLHz_AreHm4dlIXleu20uwPWFOSswqLYbV)
+- [x] [Curso de Linux - Curso Em Video](https://youtu.be/6nN2EglOqCM?list=PLHz_AreHm4dlIXleu20uwPWFOSswqLYbV)
 - [ ] [Curso POO Teoria - Curso Em Video](https://youtu.be/KlIL63MeyMY?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
+- [x] [Curso Photoshop - Curso Em Video](https://youtu.be/apyGxxabcZ4?list=PLHz_AreHm4dnj6cWEvVfRGNh2WaI0fDut)

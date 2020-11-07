@@ -53,72 +53,172 @@
                 "url_video":"LB9YMmmfnyc?list=PLesCEcYj003SwVdufCQM5FIbrOd0GG1M4"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 5 - Code::Block - workspace - eXcript",
+                "url_video":"kpxeaA-cjgg"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 6 - Indentação e Comentários - eXcript",
+                "url_video":"fdPaMspJBoE"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 7 - Variáveis I - Características da Variáveis - eXcript",
+                "url_video":"72oa9i7t-CY"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 8 - Variáveis II - Nomenclatura - eXcript",
+                "url_video":"I60vBH3royA"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 9 - Variáveis III - Tipos Primitivos do C - eXcript",
+                "url_video":"C_OUqQKVG8E"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 10 - Valores Formatados - eXcript",
+                "url_video":"6Er0wsPR334"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 11 - Operações Matemáticas - eXcript",
+                "url_video":"mEeclaJEF2w"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 12 - Entrada de Dados - eXcript",
+                "url_video":"siSjWK65LuQ"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 13 - Calculadora - eXcript",
+                "url_video":"aGAm63yOhwU"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"llLCsZE6Tus",
+                "url_video":"Programação em C - Aula 14 - Escape Sequence - eXcript"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 15 - Resto da Divisão - eXcript",
+                "url_video":"zTG2wcXbAr4"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 16 - Tomada de Decisões I - Instrução IF - eXcript",
+                "url_video":"zGLRqYDbMaI"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 17 - Tomada de Decisões e Operadores Lógicos - eXcript",
+                "url_video":"inciHPl6PTo"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 18 - Média das notas escolares - eXcript",
+                "url_video":"E75szVAN0TQ"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 19 - Operadores Relacionais - Condicionais - eXcript",
+                "url_video":"JCH04XtyT5E"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 20 - Operadores Lógicos e Relacionais - eXcript",
+                "url_video":"eqr6aX0ZKRs"
             },
             {
-                "nome_video":"",
-                "url_video":""
+                "nome_video":"Programação em C - Aula 21 - Modificadores de Tipo - eXcript",
+                "url_video":"7rS_kWzY8GI"
+            }
+        ]
+        
+    },
+    {
+        "nome":"Curso Linux",
+        "nome_curso":"curso_linux_cruso_em_video",
+        "nome_canal":"Curso em Vídeo",
+        "url_canal":"https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ",
+        "avatar_url":"https://yt3.ggpht.com/a/AATXAJw5tG-KWcrxIUOhJ8hOcgVjwsYNncLFEIf7ob1zOQ=s88-c-k-c0x00ffffff-no-rj",
+        "categoria":"desktop",
+        "tipo":"youtube",
+        "videos": [
+            {
+                "nome_video":"Onde o Linux pode ser usado? - Curso Linux #01",
+                "url_video":"R_8l3xj3QEg&list=PLHz_AreHm4dlIXleu20uwPWFOSswqLYbV"
+            },
+            {
+                "nome_video":"De onde veio o Linux? O que é software livre? - Curso Linux #02",
+                "url_video":"qs_NZXmVUr0"
+            },
+            {
+                "nome_video":"Licenças e Liberdades: é importante saber - Curso Linux #03",
+                "url_video":"-cR-0Ggi3B4"
+            },
+            {
+                "nome_video":"Instalando Linux Mint - Curso Linux #04",
+                "url_video":"ZhLjvy23rrs"
+            },
+            {
+                "nome_video":"Pendrive Linux com Etcher - Curso Linux #04.2",
+                "url_video":"EgPxsHGxspA"
+            },
+            {
+                "nome_video":"Conhecendo o Ambiente do Linux Mint - Curso Linux #05",
+                "url_video":"7KsdRHwO2Sk"
+            },
+            {
+                "nome_video":"Instalação básica de programas no Linux - Curso Linux #06.1",
+                "url_video":"L79u8csXwBU"
+            },
+            {
+                "nome_video":"Instalação avançada de programas no Linux - Curso Linux #06.2",
+                "url_video":"HlbrYQqyXpg"
+            },
+            {
+                "nome_video":"Terminal no Linux - Introdução - Curso Linux #07.1",
+                "url_video":"mgs92GtkQCE"
+            },
+            {
+                "nome_video":"Terminal no Linux - Manipulando diretórios - Curso Linux #07.2",
+                "url_video":"kK6eBHSxAgA"
+            },
+            {
+                "nome_video":"Terminal Linux - Referência Global - Curso Linux #08",
+                "url_video":"7XQ3Qt7EuWg"
+            },
+            {
+                "nome_video":"Manipulação de Arquivos com Linux - Curso Linux #09",
+                "url_video":"GEU0tmpjVfM"
+            }
+        ]
+        
+    },
+    {
+        "nome":"Curso Photoshop",
+        "nome_curso":"curso_photoshop_cruso_em_video",
+        "nome_canal":"Curso em Vídeo",
+        "url_canal":"https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ",
+        "avatar_url":"https://yt3.ggpht.com/a/AATXAJw5tG-KWcrxIUOhJ8hOcgVjwsYNncLFEIf7ob1zOQ=s88-c-k-c0x00ffffff-no-rj",
+        "categoria":"desktop",
+        "tipo":"youtube",
+        "videos": [
+            {
+                "nome_video":"Novidades do Photoshop CC 2014 - Curso Photoshop #01",
+                "url_video":"apyGxxabcZ4&list=PLHz_AreHm4dnj6cWEvVfRGNh2WaI0fDut"
+            },
+            {
+                "nome_video":"Recorte de Cabelos - Curso de Photoshop #02",
+                "url_video":"EQZArZ45jjM"
+            },
+            {
+                "nome_video":"Content Aware - Preenchimento Sensível ao Conteúdo - Curso de Photoshop #03 ",
+                "url_video":"3a8Ad1lJMXQ"
+            },
+            {
+                "nome_video":"Maquiagem Digital com Photoshop - Parte 1 - Curso de Photoshop #04",
+                "url_video":"FZxeHAcSyB4"
+            },
+            {
+                "nome_video":"Maquiagem Digital com Photoshop - Parte 2 - Curso de Photoshop #05",
+                "url_video":"fTbUJcWFY6E"
+            },
+            {
+                "nome_video":"Distorção de Marionete / Puppet Warp - Curso de Photoshop #06",
+                "url_video":"AD5LMPLc2AI"
+            },
+            {
+                "nome_video":"Como mudar o céu em uma imagem - Curso Photoshop #07",
+                "url_video":"UFktadg7ADE"
             }
         ]
         
