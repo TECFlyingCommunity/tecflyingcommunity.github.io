@@ -6,22 +6,23 @@
         "url_canal":"https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ",
         "avatar_url":"https://yt3.ggpht.com/a/AATXAJw5tG-KWcrxIUOhJ8hOcgVjwsYNncLFEIf7ob1zOQ=s88-c-k-c0x00ffffff-no-rj",
         "categoria":"embarcados",
+        "tipo":"youtube",
         "videos": [
             {
                 "nome_video":"Notação Posicional",
-                "url_video":"https://www.youtube.com/embed/J5q7s7l2EuI?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
+                "url_video":"J5q7s7l2EuI?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
             },
             {
                 "nome_video":"Números Binários",
-                "url_video":"https://www.youtube.com/embed/eD56zn5kYfU?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
+                "url_video":"eD56zn5kYfU?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
             },
             {
                 "nome_video":"Números Octais e Hexadecimais",
-                "url_video":"https://www.youtube.com/embed/gIXiFhEA-Qw?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
+                "url_video":"gIXiFhEA-Qw?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
             },
             {
                 "nome_video":"Relações entre Sistemas de Numeração",
-                "url_video":"https://www.youtube.com/embed/4ZbeExMYRIo?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
+                "url_video":"4ZbeExMYRIo?list=PLHz_AreHm4dlmeSpWzJGWOmFnVF5k_IYi"
             }
         ]
         
@@ -33,90 +34,91 @@
         "url_canal":"https://www.youtube.com/channel/UCRu4BNG9k_BRUu-aCYJsgHg",
         "avatar_url":"https://yt3.ggpht.com/a/AATXAJyfW8vugN284dM4KSqD7WVH9faxtgyZKwvm7oEFOP8=s88-c-k-c0x00ffffff-no-rj",
         "categoria":"embarcados",
+        "tipo":"youtube",
         "videos": [
             {
                 "nome_video":"Aula 1 - Abertura do Curso de C",
-                "url_video":"https://www.youtube.com/embed/FH7YrE0RjWE?list=PLesCEcYj003SwVdufCQM5FIbrOd0GG1M4"
+                "url_video":"FH7YrE0RjWE?list=PLesCEcYj003SwVdufCQM5FIbrOd0GG1M4"
             },
             {
                 "nome_video":"Aula 2 - Code::Block",
-                "url_video":"https://www.youtube.com/embed/6EDsJ_MNN7w?list=PLesCEcYj003SwVdufCQM5FIbrOd0GG1M4"
+                "url_video":"6EDsJ_MNN7w?list=PLesCEcYj003SwVdufCQM5FIbrOd0GG1M4"
             },
             {
                 "nome_video":"Aula 3 - Primeiro Programa - eXcript",
-                "url_video":"https://www.youtube.com/embed/ZYNCXzxVclQ?list=PLesCEcYj003SwVdufCQM5FIbrOd0GG1M4"
+                "url_video":"ZYNCXzxVclQ?list=PLesCEcYj003SwVdufCQM5FIbrOd0GG1M4"
             },
             {
                 "nome_video":"Aula 4 - Hello World - eXcript",
-                "url_video":"https://www.youtube.com/embed/LB9YMmmfnyc?list=PLesCEcYj003SwVdufCQM5FIbrOd0GG1M4"
+                "url_video":"LB9YMmmfnyc?list=PLesCEcYj003SwVdufCQM5FIbrOd0GG1M4"
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             },
             {
                 "nome_video":"",
-                "url_video":"https://www.youtube.com/embed/"
+                "url_video":""
             }
         ]
         

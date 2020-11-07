@@ -48,12 +48,12 @@ function recoveryVideos(videos) {
     // $videos.append(video_title);
     var video_container;
     if(i === 0 ){
-       video_container = `<div class="carousel-item active">
-      <iframe width="100%" height="480" src="${video.url_video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       video_container = `<div class="carousel-item active ">
+      <iframe class="d-block mx-auto" width="80%" height="480" src="https://www.youtube.com/embed/${video.url_video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>`;
     }else{
-       video_container = `<div class="carousel-item ">
-      <iframe width="100%" height="480" src="${video.url_video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       video_container = `<div class="carousel-item">
+      <iframe class="d-block mx-auto" width="80%" height="480" src="https://www.youtube.com/embed/${video.url_video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>`;
     }
 
