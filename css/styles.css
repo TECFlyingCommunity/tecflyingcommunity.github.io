@@ -610,19 +610,18 @@ alternativa: mudar > por um ícone svg
   width: 100px;
   background-size: 100%, 100%;
   background-image: none;
-  color: #5e17eb;
 }
 
 .carousel-control-next-icon:after {
   content: ">";
   font-size: 60px;
-  color: #5e17eb;
+  color: #b1e704;
 }
 
 .carousel-control-prev-icon:after {
   content: "<";
   font-size: 60px;
-  color: #5e17eb;
+  color: #b1e704;
 }
 
 
